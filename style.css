@@ -187,7 +187,7 @@ body {
 }
 .openlake-intro{
     color: aliceblue;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -210,6 +210,35 @@ body {
 
 #highlighted{
     color:#79a2fc;
+}
+
+.latest-blogs{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 100px;
+    margin-bottom:50px;
+    font-size:25px;
+    gap: 10px;
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    font-family: 'Blinker', sans-serif;
+}
+.blogs-container{
+  
+    /* box-shadow: inset 4px 3px 17px 1px rgba(0, 0, 0, 0.4); */
+    border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0) white white;
+    font-size: 14px;
+    font-weight: 600;
+    /* line-height: 40px; */
+    padding:10px;
+    margin:0px;
+    height: 50px;
+    background-color: rgba(250, 235, 215, 0.109);
+    border-radius: 10px;
 }
 /* for phone screen  */
 @media only screen and (max-width: 426px) {
