@@ -20,6 +20,9 @@
 
     <link rel="stylesheet" href="footer_styling.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 <body>
     <nav class="header">
         <a href="home.html">
@@ -39,8 +42,10 @@
         </div>
 
         <div class="right-nav">
-            <button id="blog-btn" href="#">Blogs</button>
-            <button id="subscribe-btn" href="#">Subscribe</button>
+            <ul>
+                <li><a href="#subscribe" id="blog-btn">Blogs</a></li>
+                <li><a href="#subscribe" id="subscribe-btn">Subscribe</a></li>
+            </ul>
         </div>
     </nav>
     <nav class="header-mobile">
@@ -85,41 +90,81 @@
 
 
     <section class="openlake-intro">
-        <h2 class="header1" >Introduction</h2>
+        <h2 class="header-intro">Introduction</h2>
         <p class="intro-content" id="highlighted">Join this journey of software development . </p>
         <p class="intro-content">Designed for collaboration .</p>
-        <p class="intro-content"> Welcome to the platform developers love . Our environment boosts your developer velocity .</p>
+        <p class="intro-content"> Welcome to the platform developers love . Our environment boosts your developer
+            velocity .</p>
     </section>
 
     <section class="latest-blogs">
-        <h2>Latest Blogs</h2>
+        <h2 class="heading1">Latest Blogs</h2>
+        <hr>
         <div class="blogs-container">
-        Blog1
+            <div class="date">August 7, 2023</div>
+            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
+            <div class="subheading1">Tech world, AI, Data</div>
+            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
+                ullam repudiandae modi dicta odit iusto sequi porro...</p>
+            <a href="#" class="read-more">Click to <b>Read</b></a>
         </div>
+        <hr>
         <div class="blogs-container">
-        Blog2
+            <div class="date">August 7, 2023</div>
+            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
+            <div class="subheading1">Tech world, AI, Data</div>
+            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
+                ullam repudiandae modi dicta odit iusto sequi porro...</p>
+            <a href="#" class="read-more">Click to <b>Read</b></a>
         </div>
+        <hr>
         <div class="blogs-container">
-        Blog3
+            <div class="date">August 7, 2023</div>
+            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
+            <div class="subheading1">Tech world, AI, Data</div>
+            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
+                ullam repudiandae modi dicta odit iusto sequi porro...</p>
+            <a href="#" class="read-more">Click to <b>Read</b></a>
+        </div>
+        <hr>
+        <div class="blogs-container">
+            <div class="date">August 7, 2023</div>
+            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
+            <div class="subheading1">Tech world, AI, Data</div>
+            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
+                ullam repudiandae modi dicta odit iusto sequi porro...</p>
+            <a href="#" class="read-more">Click to <b>Read</b></a>
+        </div>
+        <hr>
+        <div class="blogs-container">
+            <div class="date">August 7, 2023</div>
+            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
+            <div class="subheading1">Tech world, AI, Data</div>
+            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
+                ullam repudiandae modi dicta odit iusto sequi porro...</p>
+            <a href="#" class="read-more">Click to <b>Read</b></a>
+        </div>
+        <hr>
+
+    </section>
+
+
+    <section id="subscribe">
+        <h2 class="heading2">Subscribe our Newsletter</h2>
+    
+        <div class="box">
+            <input type="text" name="box" id="input-box" placeholder="Email address">
+            <button class="subscribe-btn">Subscribe</button>
         </div>
     </section>
 
 
-    <!-- <section class="openlake-intro">
-        ontro of open lake
-    </section> -->
 
 
 
-
-
-
-
-
-
-    <?php
+    <!-- <?php
         require_once('footer.php');
-    ?>
+    ?> -->
     
 </body>
 
