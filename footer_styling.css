@@ -14,6 +14,7 @@ html {
       word-spacing: 2px;
       font-weight: 300; 
       padding-left: 3rem;
+      
 }
     
 .footer__title 
@@ -87,6 +88,8 @@ html {
       right: 0;
       bottom: 0;
       color: #fff;
+
+      
 }
 
 .column1 

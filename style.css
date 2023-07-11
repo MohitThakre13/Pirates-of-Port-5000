@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: url('./Images/bg.png') center center/cover;
+    min-height: 100vh
 }
 
 /* header */
