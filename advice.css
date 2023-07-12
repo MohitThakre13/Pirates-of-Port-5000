@@ -1,0 +1,173 @@
+.background1{
+    background-image:url("images/heading_advice.jpg");
+    padding-right: 20rem;
+    padding-left: 17rem;
+    padding-top: 7rem;
+    padding-bottom:10rem;
+    width: 936px;
+    height:1px;
+    opacity:1;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    border: 2px solid #000000;
+    color: #fff;
+
+}
+
+@media (max-width:"1200px")
+{
+    body{
+        background-image: url(image/bg.png);
+        background-size: cover;
+        padding-left:9rem;
+        
+        width:1175px;
+        height:2000px;
+        margin-left:"50%";
+    
+    }
+}
+    
+    .head5{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+    margin-left: 250px;
+    
+    }
+    
+    .shift-right {
+        margin-left: 230px;
+      }
+      
+      .shift-right2 {
+        margin-left: 10px;
+      }
+      
+    
+    
+   
+          
+    .footer__link:link i, .footer__link:visited i 
+    {
+            margin-right: 0rem; 
+    }
+        
+    .footer__link--facebook:hover, .footer__link--facebook:active 
+    {
+          color: #533078; 
+    }
+        
+    .footer__link--twitter:hover, .footer__link--twitter:active 
+    {
+          color: #533078; 
+    }
+        
+    .footer__link--instagram:hover, .footer__link--instagram:active 
+    {
+          color: #533078; 
+    }
+        
+    .footer__link--linkedin:hover, .footer__link--linkedin:active 
+    {
+          color: #533078; 
+    }
+    
+    .footer__link--webmail:hover, .footer__link--webmail:active 
+    {
+          color: #533078; 
+    }
+        
+    
+    
+
+          
+          
+    @media (max-width: 600px) 
+    {
+            .footer
+            {
+              text-align: center; 
+            } 
+    }
+          
+    .footer .fa-heart 
+    {
+            color: #e31b23; 
+    }
+        
+    @media (max-width: 1200px) 
+    {
+        .footer__disclaimer, .footer__connect 
+        {
+            margin: 0 5rem; 
+        } 
+    }
+        
+    @media (max-width: 1200px) 
+    {
+        .footer .copyright, .footer .love 
+        {
+            margin: 0 0rem; 
+        } 
+    }
+    
+    .container1 {
+        display: grid;
+        grid-template-columns: repeat(4, 5fr);
+        gap: 50px;
+      }
+      
+      .column1 {
+        background-color: #f2f2f2;
+        margin-right:0rem;
+        padding-right: 0rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4;
+        padding-left:0.2rem;
+      }
+    
+    
+    
+      .image-container1 {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50.5%;
+        
+        transform: translate(-50%, -50%);
+        text-align:justify;
+        color: #fff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 35rem;
+      }
+      
+      .text-overlay h2 {
+        font-size: 24px;
+      }
+      
+      .text-overlay p {
+        font-size: 16px;
+      }
+      .advice {
+        color: rgb(0, 0, 0);
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+      }  
+      .container2 {
+        column-count: 4;
+        column-gap: 300px;
+      }
+
+      .rounded-image {
+        border-radius: 40px;
+      }
