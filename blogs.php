@@ -18,15 +18,15 @@
     ?>
     
 
-    <section class="latest-blogs">
-        <h2>Latest Blogs</h2>
-        <div class="blogs-container">
+    <section class="Blog-main">
+        <h2 class="heading">Blogs</h2>
+        <div class="blogs-box">
         Blog1
         </div>
-        <div class="blogs-container">
+        <div class="blogs-box">
         Blog2
         </div>
-        <div class="blogs-container">
+        <div class="blogs-box">
         Mohit tune phone silent pe kyun rakha tha?
         </div>
     </section>
