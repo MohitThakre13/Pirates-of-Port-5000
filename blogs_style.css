@@ -5,7 +5,7 @@ body {
     background: url('./Images/bg.png') center center/cover;
 }
 
-.latest-blogs{
+.Blog-main{
     display: flex;
     flex-direction: column;
     color: aliceblue;
@@ -14,7 +14,7 @@ body {
     font-size:5px;
     gap: 10px;
     color: aliceblue;
-    height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -22,7 +22,7 @@ body {
     
 }
 
-.blogs-container{
+.blogs-box{
   
     /* box-shadow: inset 4px 3px 17px 1px rgba(0, 0, 0, 0.4); */
     border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0) white white;
@@ -34,4 +34,21 @@ body {
     height: 50px;
     background-color: rgba(250, 235, 215, 0.109);
     border-radius: 10px;
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+@media only screen and (max-width:769px){
+    .Blog-main {
+        margin-bottom: 0px;
+        padding: 63px;
+    }
+    .blogs-box {
+        padding: 10px 10px;
+    }
 }
