@@ -9,6 +9,7 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 70px;
 }
 .footer 
 {
@@ -110,7 +111,42 @@ html {
 }
 
 
-@media (max-width: 426px) 
+
+@media only screen and (max-width: 1200px) 
+{
+    .footer__disclaimer, .footer__connect 
+    {
+        margin: 0 5rem; 
+    } 
+    .footer .copyright, .footer .spec 
+    {
+        margin: 0 0rem; 
+    } 
+}
+
+@media only screen and (max-width: 760px) 
+{
+.footer
+{
+  font-size: 0.9rem;
+} 
+.footer__link:link, .footer__link:visited 
+{
+  font-size: 1rem;
+}
+.footer .container{
+  height: 60px;
+}
+.column1{
+  padding-left: 70px;
+}
+.column2{
+  padding-right: 70px;
+}
+}
+    
+
+@media only screen and (max-width: 470px) 
 {
     .footer{
         font-size: 0.8rem;
@@ -134,37 +170,4 @@ html {
         width: auto;
         padding:0px;
     }
-}
-
-@media (max-width: 760px) 
-{
-.footer
-{
-  font-size: 0.9rem;
-} 
-.footer__link:link, .footer__link:visited 
-{
-  font-size: 1rem;
-}
-.footer .container{
-  height: 60px;
-}
-.column1{
-  padding-left: 70px;
-}
-.column2{
-  padding-right: 70px;
-}
-}
-    
-@media (max-width: 1200px) 
-{
-    .footer__disclaimer, .footer__connect 
-    {
-        margin: 0 5rem; 
-    } 
-    .footer .copyright, .footer .spec 
-    {
-        margin: 0 0rem; 
-    } 
 }

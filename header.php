@@ -28,7 +28,7 @@
                 <li class="on-page"><a href="./homepage.php" id="home">Home</a></li>
                 <li><a href="#" id="our-projects">Our Projects</a></li>
                 <li><a href="#" id="community">Community</a></li>
-                <li><a href="#" id="mentors">Mentors</a></li>
+                <li><a href="./advice.php" id="advice">Advice</a></li>
             </ul>
         </div>
         <div class="right-nav">
@@ -56,7 +56,7 @@
                 <li><a href="./homepage.php">Home</a></li>
                 <li><a href="#">Our Projects</a> </li>
                 <li><a href="#">Community</a> </li>
-                <li><a href="#">Mentors</a></li>
+                <li><a href="./advice.php">Advice</a></li>
                 <li><a href="./blogs.php">Blogs</a></li>
                 <li><a href="#subscribe">Subscribe</a></li>
             </ul>
