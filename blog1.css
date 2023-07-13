@@ -28,10 +28,10 @@ margin-top: 10px;
 }
 
 .topic-bg{
-background-image:url(images/bg-blog.jpg);
+background-image:url(images/blog-bg.png);
 height:190px;
 width:1000px;
-margin-left: 17%;
+margin:auto;
 position: relative;
 border-radius: 10px;
 
@@ -46,7 +46,7 @@ border: 2px;
 }
 
 .blog-content{
-margin-left: 17%;
+margin:auto;
 background-image: url(images/box.jpg);
 width:1000px;
 height:100%;
@@ -61,7 +61,6 @@ font-size:18px;
 color:black;
 margin-bottom: 20px;
 line-height: 1.5rem;
-margin-right: 20px;
 }
 
 .round-edge{
