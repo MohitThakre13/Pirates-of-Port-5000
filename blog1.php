@@ -22,12 +22,12 @@
         <div class="topic-bg">
             <div class="blog-topic"><br>Why is foss good for you? </div>
             <p class="author-date">
-                -13th June, 2022, Ansh Ghosh &nbsp;<img src="images/m1.jpg" alt="A beautiful image"
+                -13th June, 2022, Ansh Ghosh &nbsp;&nbsp;<img src="images/m1.jpg" alt="A beautiful image"
                     class="image-frame"></p>
             <br><br>
         
     </div>
-    
+    </p>
     
     <br>
     <div class="blog-content">
@@ -38,11 +38,11 @@
             weave” describes the strict division between the sexes. Women were, thus, expected to be educated on
             specific “women’s rites, etiquettes, and duties,” including many excruciating and restricting practices.
             Endeavoring through this male-dominated society, many women rose to live extraordinary lives, producing
-            great literature and scholarship and ruling the Chinese empire.<br><img >
+            great literature and scholarship and ruling the Chinese empire.<br><br>
             Modern historians and observers criticize Confucianism for creating a patriarchy that oppressed women. Yet,
             they had very different experiences depending on the time, place, ethnic group, and social class in which
             they were born. During the Tang dynasty, women’s status was uplifted but declined from the Song dynasty
-            onward because of the rise of neo-Confucianism.
+            onward because of the rise of neo-Confucianism.<br>
             Women were the first subordinate to their fathers, then their husbands, and finally, in case of the death of
             their husbands, their sons. Such a system is known as” three following” or sancong. They were other
             physically ill-treated, socially disapproved, and forced to compete for their husband's affections with

@@ -57,9 +57,11 @@ border-radius: 10px;
 .content{
 margin-left:20px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size:20px;
+font-size:18px;
 color:black;
 margin-bottom: 20px;
+line-height: 1.5rem;
+margin-right: 20px;
 }
 
 .round-edge{
@@ -72,4 +74,7 @@ border-radius: 10%;
     height: 70px;
     border-radius: 50%; /* Make the frame round by setting the border-radius to 50% */
     overflow: hidden; /* Hide any overflow of the image */
+    
   }
+
+
