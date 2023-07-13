@@ -96,24 +96,58 @@
 
     </section>
 
-
+    <form action = "homepage.php" method = "post">
     <section id="subscribe">
         <h2 class="heading2">Subscribe our Newsletter</h2>
     
         <div class="box">
-            <input type="text" name="box" id="input-box" placeholder="Email address">
-            <button class="subscribe-btn">Subscribe</button>
+            <input type="email" name="box" id="input-box" placeholder="Email address">
+            <button name="submit" class="subscribe-btn">Subscribe</button>
         </div>
     </section>
+    </form>
 
 
-
+    
 
 
      <?php
         require_once('footer.php');
-    ?>
+        ?>
     
+        <?php
+        if (isset($_POST['submit'])) {
+            if (strlen($_POST['box']) != 0) {
+                $email = $_POST['box'];
+    
+                //making connection with the database
+    
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $database = "emails";
+    
+                $conn = mysqli_connect($servername, $username, $password, $database);
+    
+                if ($conn) {
+                    // writing entries to the blogs database
+                    $sql = "INSERT INTO `emails` (`email`) VALUES ('$email')";
+                    $result = mysqli_query($conn, $sql);
+                    if ($result) {
+    
+                        // add it as a flag
+                        echo "You are successfully subscribed to the newsletter<br>";
+                    }
+                    else {
+                        echo "There is a technical issue<br>";
+                    }
+                }
+                else {
+                    die("There is a technical issue : ".mysqli_connect_error());
+                }
+            }
+        }
+        ?>
 </body>
 
 </html>
