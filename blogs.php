@@ -18,8 +18,8 @@
     ?>
     
 
-    <section class="latest-blogs">
-        <h2>Latest Blogs</h2>
+    <section class="blogs">
+        <h2 class= "blogtext">Blogs</h2>
         <div class="blogs-container">
         Blog1
         </div>
@@ -29,6 +29,37 @@
         <div class="blogs-container">
         Mohit tune phone silent pe kyun rakha tha?
         </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        <div class="blogs-container">
+        Blog1
+        </div>
+        
     </section>
 
 
