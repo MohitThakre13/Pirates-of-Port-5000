@@ -23,109 +23,82 @@
     <div class="mentorbackground">
       Mentor's Insights
     </div>
-    </div>
    
     <br><br><br>
         
-        <div class="center"><b>MEET THE MENTORS</div>
-    <br><br><br>
+    <div class="center">
+        <b>MEET THE MENTORS</b>
+    </div>
 
-        <div class="container">
-
+    
+    <div class="container">
         <div class="one-advice">
-
-            <div class="image-container"><img src="images/m1.jpg" alt="A beautiful image" width="300" height="200"
-                class="rounded-image">
-                <!--<a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i>
-                <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i>
-            -->
+            <div class="image-container">
+                <img src="images/m1.jpg" alt="A beautiful image"  class="rounded-image">
             </div>
 
-                <div class="advice-container">
-                    We also don't always experience pure forms of each
-                    emotion. Mixed emotions over different events or
-                    situations in our lives are common. When faced with starting a new
-                    job, you might feel both excited
-                    and nervous. Getting married or having a child might be marked by a
-                    wide variety of emotions ranging
-                    from joy to anxiety. These emotions might occur simultaneously, or
-                    you might feel them one after
-                    another.<br><br>
-                    Anshu Ghosh, Btech 2024<br><br>
-                    <a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
-
+            <div class="advice-container">
+                <p class="content">We also don't always experience pure forms of each emotion. Mixed emotions over different events orsituations in our lives are common. When faced with starting a newjob, you might feel both excited and nervous. Getting married or having a child might be marked by a wide variety of emotions ranging from joy to anxiety. These emotions might occur simultaneously, or you might feel them one after another.</p>
+                <p class="author">Anshu Ghosh, Btech 2024</p>
+                <div class="icons-container">
+                    <a href="https://www.instagram.com/iitbhilai/" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
                 </div>
+            </div>
+            
         </div>
-
         <div class="one-advice">
+            <div class="image-container">
+                <img src="images/m1.jpg" alt="A beautiful image"  class="rounded-image">
+            </div>
 
-<div class="image-container"><img src="images/m1.jpg" alt="A beautiful image" width="300" height="200"
-    class="rounded-image">
-    <!--<a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i>
-    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i>
--->
-</div>
-
-    <div class="advice-container">
-        We also don't always experience pure forms of each
-        emotion. Mixed emotions over different events or
-        situations in our lives are common. When faced with starting a new
-        job, you might feel both excited
-        and nervous. Getting married or having a child might be marked by a
-        wide variety of emotions ranging
-        from joy to anxiety. These emotions might occur simultaneously, or
-        you might feel them one after
-        another.<br><br>
-        Anshu Ghosh, Btech 2024<br><br>
-        <a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
-    </div>
-</div>
-
-<div class="one-advice">
-
-<div class="image-container"><img src="images/m1.jpg" alt="A beautiful image" width="300" height="200"
-    class="rounded-image">
-    <!--<a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i>
-    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i>
--->
-</div>
-
-    <div class="advice-container">
-        We also don't always experience pure forms of each
-        emotion. Mixed emotions over different events or
-        situations in our lives are common. When faced with starting a new
-        job, you might feel both excited
-        and nervous. Getting married or having a child might be marked by a
-        wide variety of emotions ranging
-        from joy to anxiety. These emotions might occur simultaneously, or
-        you might feel them one after
-        another.<br><br>
-        Anshu Ghosh, Btech 2024<br><br>  
-        <a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
-         
-
-    </div>
-</div>
-
-        
-
-       
-    </div>
-    
-            <br><br><br>
-
-            <br><br><br>
-
-
-            <?php
-            require_once('footer.php');
-            ?>
-
-
+            <div class="advice-container">
+                <p class="content">We also don't always experience pure forms of each emotion. Mixed emotions over different events orsituations in our lives are common. When faced with starting a newjob, you might feel both excited and nervous. Getting married or having a child might be marked by a wide variety of emotions ranging from joy to anxiety. These emotions might occur simultaneously, or you might feel them one after another.</p>
+                <p class="author">Anshu Ghosh, Btech 2024</p>
+                <div class="icons-container">
+                    <a href="https://www.instagram.com/iitbhilai/" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
         </div>
+        <div class="one-advice">
+            <div class="image-container">
+                <img src="images/m1.jpg" alt="A beautiful image"  class="rounded-image">
+            </div>
+
+            <div class="advice-container">
+                <p class="content">We also don't always experience pure forms of each emotion. Mixed emotions over different events orsituations in our lives are common. When faced with starting a newjob, you might feel both excited and nervous. Getting married or having a child might be marked by a wide variety of emotions ranging from joy to anxiety. These emotions might occur simultaneously, or you might feel them one after another.</p>
+                <p class="author">Anshu Ghosh, Btech 2024</p>
+                <div class="icons-container">
+                    <a href="https://www.instagram.com/iitbhilai/" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="one-advice">
+            <div class="image-container">
+                <img src="images/m1.jpg" alt="A beautiful image"  class="rounded-image">
+            </div>
+
+            <div class="advice-container">
+                <p class="content">We also don't always experience pure forms of each emotion. Mixed emotions over different events orsituations in our lives are common. When faced with starting a newjob, you might feel both excited and nervous. Getting married or having a child might be marked by a wide variety of emotions ranging from joy to anxiety. These emotions might occur simultaneously, or you might feel them one after another.</p>
+                <p class="author">Anshu Ghosh, Btech 2024</p>
+                <div class="icons-container">
+                    <a href="https://www.instagram.com/iitbhilai/" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="blank"></div>
+    <?php
+    require_once('footer.php');
+    ?>
+
+
 </body>
 
 </html>
