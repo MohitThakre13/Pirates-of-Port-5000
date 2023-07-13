@@ -1,0 +1,17 @@
+.repo-name {
+    font-weight: bold;
+    color: rgb(240, 240, 244);
+}
+
+.repo-url {
+    color: rgb(197, 165, 202);
+}
+
+.repository-list {
+    margin-top: 20px;
+}
+
+.list-title {
+    font-size: 18px;
+    font-weight: bold;
+}
