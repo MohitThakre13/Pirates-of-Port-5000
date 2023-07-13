@@ -26,7 +26,7 @@
         <div class="mid-nav">
             <ul class="navopt">
                 <li class="on-page"><a href="./homepage.php" id="home">Home</a></li>
-                <li><a href="#" id="our-projects">Our Projects</a></li>
+                <li><a href="./project.php" id="our-projects">Our Projects</a></li>
                 <li><a href="#" id="community">Community</a></li>
                 <li><a href="./advice.php" id="advice">Advice</a></li>
             </ul>
