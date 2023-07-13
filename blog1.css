@@ -1,0 +1,80 @@
+.background{
+background-image: url(images/bg.png);
+margin:0%;
+padding:0%;
+background-size:cover;
+
+}
+
+
+.arrow{
+color: white;
+font-size: 25px;
+margin-left: 20px;
+}
+
+.back{
+color:white;
+font-size: 20px;
+
+}
+
+.blog-topic{
+color: white;
+font-size: 30px;
+margin-left: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 10px;
+}
+
+.topic-bg{
+background-image:url(images/bg-blog.jpg);
+height:190px;
+width:1000px;
+margin-left: 17%;
+position: relative;
+border-radius: 10px;
+
+}
+
+.author-date{
+margin-top: 40px;
+color: white;
+margin-left:40px;
+font-size: 20px;
+border: 2px;
+}
+
+.blog-content{
+margin-left: 17%;
+background-image: url(images/box.jpg);
+width:1000px;
+height:100%;
+border-radius: 10px;
+
+}
+
+.content{
+margin-left:20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:18px;
+color:black;
+margin-bottom: 20px;
+line-height: 1.5rem;
+margin-right: 20px;
+}
+
+.round-edge{
+border-radius: 10%;
+
+}
+
+.image-frame {
+    width: 70px; /* Adjust the width and height to your desired size */
+    height: 70px;
+    border-radius: 50%; /* Make the frame round by setting the border-radius to 50% */
+    overflow: hidden; /* Hide any overflow of the image */
+    
+  }
+
+
