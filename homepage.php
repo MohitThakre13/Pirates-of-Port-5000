@@ -21,6 +21,42 @@
     <?php
       require_once('header.php');
     ?>
+<div class="alert alert-warning" role="alert">
+<?php
+        if (isset($_POST['submit'])) {
+            if (strlen($_POST['box']) != 0) {
+                $email = $_POST['box'];
+    
+                //making connection with the database
+    
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $database = "emails";
+    
+                $conn = mysqli_connect($servername, $username, $password, $database);
+    
+                if ($conn) {
+                    // writing entries to the blogs database
+                    $sql = "INSERT INTO `emails` (`email`) VALUES ('$email')";
+                    $result = mysqli_query($conn, $sql);
+                    if ($result) {
+    
+                        // add it as a flag
+                        echo "You are successfully subscribed to the newsletter<br>";
+                    }
+                    else {
+                        echo "There is a technical issue<br>";
+                    }
+                }
+                else {
+                    die("There is a technical issue : ".mysqli_connect_error());
+                }
+            }
+        }
+        ?>
+</div>
+
     <img src="./Images/arrow.png" alt="" id="arrow">
     <section class="main-intro-container">
         
@@ -121,39 +157,7 @@
         require_once('footer.php');
         ?>
     
-        <?php
-        if (isset($_POST['submit'])) {
-            if (strlen($_POST['box']) != 0) {
-                $email = $_POST['box'];
-    
-                //making connection with the database
-    
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "emails";
-    
-                $conn = mysqli_connect($servername, $username, $password, $database);
-    
-                if ($conn) {
-                    // writing entries to the blogs database
-                    $sql = "INSERT INTO `emails` (`email`) VALUES ('$email')";
-                    $result = mysqli_query($conn, $sql);
-                    if ($result) {
-    
-                        // add it as a flag
-                        echo "You are successfully subscribed to the newsletter<br>";
-                    }
-                    else {
-                        echo "There is a technical issue<br>";
-                    }
-                }
-                else {
-                    die("There is a technical issue : ".mysqli_connect_error());
-                }
-            }
-        }
-        ?>
+        
 </body>
 
 </html>
