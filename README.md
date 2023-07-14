@@ -75,7 +75,7 @@ Member 5:
 	Whatsapp Number: 7985370417
 	Github Username: SmitMaurya23
 
-#Images
+# Images
 
 Past events
 <img width="943" alt="image" src="https://github.com/MohitThakre13/Pirates-of-Port-5000/assets/132203879/fbe4078d-6edf-446f-a37a-17178eff20ea">
