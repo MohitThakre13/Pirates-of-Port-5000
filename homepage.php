@@ -80,7 +80,8 @@
         
     </section>
 
-
+    
+    
     <section class="openlake-intro">
         <h2 class="header-intro">Introduction</h2>
         <p class="intro-content" id="highlighted">Join this journey of software development . </p>
@@ -88,57 +89,60 @@
         <p class="intro-content"> Commit to repos as well creating efficient code, </p>
         <p class="intro-content">Checkout not only develop, but also the latest developments in tech!</p>
     </section>
-
+    
     <section class="latest-blogs">
-        <h2 class="heading1">Latest Blogs</h2>
-        <hr>
-        <div class="blogs-container">
-            <div class="date">August 7, 2023</div>
-            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-            <div class="subheading1">Tech world, AI, Data</div>
-            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                ullam repudiandae modi dicta odit iusto sequi porro...</p>
-            <a href="#" class="read-more">Click to <b>Read</b></a>
-        </div>
-        <hr>
-        <div class="blogs-container">
-            <div class="date">August 7, 2023</div>
-            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-            <div class="subheading1">Tech world, AI, Data</div>
-            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                ullam repudiandae modi dicta odit iusto sequi porro...</p>
-            <a href="#" class="read-more">Click to <b>Read</b></a>
-        </div>
-        <hr>
-        <div class="blogs-container">
-            <div class="date">August 7, 2023</div>
-            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-            <div class="subheading1">Tech world, AI, Data</div>
-            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                ullam repudiandae modi dicta odit iusto sequi porro...</p>
-            <a href="#" class="read-more">Click to <b>Read</b></a>
-        </div>
-        <hr>
-        <div class="blogs-container">
-            <div class="date">August 7, 2023</div>
-            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-            <div class="subheading1">Tech world, AI, Data</div>
-            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                ullam repudiandae modi dicta odit iusto sequi porro...</p>
-            <a href="#" class="read-more">Click to <b>Read</b></a>
-        </div>
-        <hr>
-        <div class="blogs-container">
-            <div class="date">August 7, 2023</div>
-            <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-            <div class="subheading1">Tech world, AI, Data</div>
-            <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                ullam repudiandae modi dicta odit iusto sequi porro...</p>
-            <a href="#" class="read-more">Click to <b>Read</b></a>
-        </div>
-        <hr>
+            <h2 class="heading1">Latest Blogs</h2>
+            <hr>
+    <?php
+        
+        //making connection with the database
 
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "blogs";
+
+        $conn = mysqli_connect($servername, $username, $password, $database);
+
+        if ($conn) {
+            // reading entries from blogs database
+            $sql = "SELECT * FROM `blogs` ORDER BY `s.no.` DESC";
+            $result = mysqli_query($conn, $sql);
+
+
+            //counting total blogs
+            $num = mysqli_num_rows($result);
+
+            //Initializing the count
+            $i = 0;
+
+            if ($result) {
+                if ($num > 0) {
+                    while($row = mysqli_fetch_assoc($result)) {
+                        $i++;
+                        if ($i > 5){
+                            echo "<br><br>";break;
+                        }
+                        echo '
+                        <div class="blogs-container">
+                        <div class="date">'.$row['date'].'</div>
+                        <div><a href="#" class="blog-heading" style="text-decoration:none;">'.$row['blog_topic'].'</a></div>
+                        <div class="subheading1">'.$row['topic_of_interest'].'</div>
+                        <p class="content2">'.substr($row['content'],0,141)."...".'</p>
+                        <a href="./blog1.php?sno='.$row['s.no.'].'" class="read-more">Click to <b>Read</b></a>
+                    </div>
+                    <hr>
+                        ';
+                    }
+                }
+            }
+        }
+        else {
+            die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
+        }
+    ?>
     </section>
+
 
     <form action = "homepage.php" method = "post">
     <section id="subscribe">
