@@ -13,16 +13,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./homepage.css">
+    
+    
 </head>
 <body>
     <?php
       require_once('header.php');
     ?>
-
+    <img src="./Images/arrow.png" alt="" id="arrow">
     <section class="main-intro-container">
         <div id="past-event-button" class="event-button">
-            Past Events
+            <a href="./past_events.php">Past Events</a>
         </div>
         <div id="logo-welcome-container">
             <img src="./Images/fossoverflow_3d.png" id="intro-logo" alt="error to load image">
@@ -32,7 +34,7 @@
             </div>
         </div>
         <div id="upcoming-event-button" class="event-button">
-            Upcoming Events
+            <a href="./upcoming_events.php">Upcoming Events</a>
         </div>
     </section>
 

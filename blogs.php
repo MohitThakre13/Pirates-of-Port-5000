@@ -6,7 +6,8 @@
     <title>Blogs</title>
     
 
-    <link rel="stylesheet" href="blogs_style.css">
+    <link rel="stylesheet" href="./blogs_style.css">
+    <link rel="stylesheet" href="./homepage.css">
 
 </head>
 
@@ -64,66 +65,6 @@
             die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
         }
     ?>
-    
-            <!-- <div class="blogs-container">
-                <div class="date">August 7, 2023</div>
-                <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-                <div class="subheading1">Tech world, AI, Data</div>
-                <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                    ullam repudiandae modi dicta odit iusto sequi porro...</p>
-                <a href="#" class="read-more">Click to <b>Read</b></a>
-            </div>
-            <hr>
-            <div class="blogs-container">
-                <div class="date">August 7, 2023</div>
-                <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-                <div class="subheading1">Tech world, AI, Data</div>
-                <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                    ullam repudiandae modi dicta odit iusto sequi porro...</p>
-                <a href="#" class="read-more">Click to <b>Read</b></a>
-            </div>
-            <hr>
-            <div class="blogs-container">
-                <div class="date">August 7, 2023</div>
-                <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-                <div class="subheading1">Tech world, AI, Data</div>
-                <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                    ullam repudiandae modi dicta odit iusto sequi porro...</p>
-                <a href="#" class="read-more">Click to <b>Read</b></a>
-            </div>
-            <hr>
-            <div class="blogs-container">
-                <div class="date">August 7, 2023</div>
-                <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-                <div class="subheading1">Tech world, AI, Data</div>
-                <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                    ullam repudiandae modi dicta odit iusto sequi porro...</p>
-                <a href="#" class="read-more">Click to <b>Read</b></a>
-            </div>
-            <hr>
-            <div class="blogs-container">
-                <div class="date">August 7, 2023</div>
-                <div><a href="#" class="blog-heading" style="text-decoration:none;">Blog for Tech</a></div>
-                <div class="subheading1">Tech world, AI, Data</div>
-                <p class="content2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex expedita iure soluta
-                    ullam repudiandae modi dicta odit iusto sequi porro...</p>
-                <a href="#" class="read-more">Click to <b>Read</b></a>
-            </div>
-            <hr>
-    
-        </section>
-    
-    <section class="Blog-main">
-        <h2 class="heading">Blogs</h2>
-        <div class="blogs-box">
-            Blog1
-        </div>
-        <div class="blogs-box">
-            Blog2
-        </div>
-        <div class="blogs-box">
-            Mohit tune phone silent pe kyun rakha tha?
-        </div> -->
     </section>
 
     <?php

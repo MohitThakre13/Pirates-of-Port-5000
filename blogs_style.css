@@ -5,6 +5,16 @@ body {
     background: url('./Images/bg.png') center center/cover;
 }
 
+.latest-blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 128px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
 .Blog-main{
     display: flex;
     flex-direction: column;
@@ -37,6 +47,34 @@ body {
 }
 
 .heading {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.blogs-container {
+
+    padding: 10px;
+    margin: 0px;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.blog-heading {
+    color: #79a2fc;
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.heading1 {
     color: white;
     font-size: 40px;
     margin-bottom: 50px;
