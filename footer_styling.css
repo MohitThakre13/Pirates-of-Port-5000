@@ -146,7 +146,7 @@ html {
 }
     
 
-@media only screen and (max-width: 470px) 
+@media only screen and (max-width: 525px) 
 {
     .footer{
         font-size: 0.8rem;
