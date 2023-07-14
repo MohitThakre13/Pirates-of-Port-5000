@@ -11,6 +11,13 @@
 .back-btn{
   padding-left:20px;
 }
+.back-btn:hover{
+  color: aquamarine;
+
+}
+.back a:hover{
+  font-weight: 900;
+}
 .back a{
   text-decoration: none;
 }
