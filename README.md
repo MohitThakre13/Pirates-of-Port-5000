@@ -2,6 +2,8 @@
 This is the project repository for the WebWave contest. We have created a website for IIT Bhilai's Open Source club OpenLake
 
 # Setting-up
+THIS STEP IS VERY IMPORTANT, YOU MIGHT NOT BE ABLE TO SEE BLOGS, EVENTS WITHOUT THIS STEP
+
 1. For submitting blog
   Open create_database_and_table.php which you'll find in the database_setup_files folder.
   Then go to submit_blog.php to submit your blogs.
@@ -32,7 +34,7 @@ This is the project repository for the WebWave contest. We have created a websit
     GitHub Rest API 
   DevOps:
     Version Control: Git
-    Deployment: Vercel
+    Deployment: (to be decided, Vercel didn't work because the website is in php)
 
 # Features
   1. Responsive
@@ -72,3 +74,6 @@ Member 5:
 	Batch: 2026
 	Whatsapp Number: 7985370417
 	Github Username: SmitMaurya23
+
+#Images
+
