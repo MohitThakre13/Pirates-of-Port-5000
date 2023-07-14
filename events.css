@@ -5,6 +5,7 @@
     -webkit-font-smoothing: antialiased;
     display: flex;
     flex-direction: column;
+    min-height: 80vh;
   }
   .blogtitle{
     color:aliceblue;
@@ -16,6 +17,8 @@
     font-size: 60px;
     font-weight: 900;
     margin-left: 0;
+    padding: 10px;
+    padding-left: 80px;
   }
   .eventhead{
     font-size: 50px;
@@ -69,7 +72,22 @@
   
   
   
-  
+  @media only screen and (max-width:820px){
+    #heading{
+      font-size: 30px;
+    font-weight: 900;
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 80px;
+    }
+  }
+  @media only screen and (max-width:520px){
+    #heading{
+      padding: 10px;
+      padding-left: 44px;
+      font-size: 2rem;
+    }
+  }
   
   
   /*.background{
