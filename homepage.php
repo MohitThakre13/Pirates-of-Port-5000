@@ -46,9 +46,9 @@
     <section class="openlake-intro">
         <h2 class="header-intro">Introduction</h2>
         <p class="intro-content" id="highlighted">Join this journey of software development . </p>
-        <p class="intro-content">Designed for collaboration .</p>
-        <p class="intro-content"> Welcome to the platform developers love . Our environment boosts your developer
-            velocity .</p>
+        <p class="intro-content">This is OpenLake, where we push branches and our limits,</p>
+        <p class="intro-content"> Commit to repos as well creating efficient code, </p>
+        <p class="intro-content">Checkout not only develop, but also the latest developments in tech!</p>
     </section>
 
     <section class="latest-blogs">
