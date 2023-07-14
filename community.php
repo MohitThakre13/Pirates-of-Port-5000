@@ -78,7 +78,7 @@
 
                 if ($result) {
 
-                    while($row = mysqli_fetch_assoc($result)) { echo "Hi";
+                    while($row = mysqli_fetch_assoc($result)) {
                         
                         if ($row['position'] != "Coordinator") {
                         echo '
