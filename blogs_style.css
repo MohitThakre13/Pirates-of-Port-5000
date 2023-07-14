@@ -4,6 +4,7 @@ body {
     padding: 0px;
     background: url('./Images/bg.png') center center/cover;
 }
+
 .latest-blogs{
     display: flex;
     flex-direction: column;
