@@ -6,7 +6,24 @@
 
 /* Ensure full page height */
 
+/* Navbar*/
+.navopt>.on-page-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 12px;
+  padding: 5px 8px;
+  list-style: none;
+  border: 2px solid white;
+  border-radius: 36px;
+  background-color: white;
+}
 
+.navopt>.on-page-project>a {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+/* Navbar End */
 /* Wrapper */
 .wrapper {
   display: flex;

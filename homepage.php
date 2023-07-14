@@ -23,9 +23,11 @@
     ?>
     <img src="./Images/arrow.png" alt="" id="arrow">
     <section class="main-intro-container">
-        <div id="past-event-button" class="event-button">
-            <a href="./past_events.php">Past Events</a>
-        </div>
+        
+            <a href="./past_events.php">
+                <div id="past-event-button" class="event-button">Past Events</div>
+            </a>
+       
         <div id="logo-welcome-container">
             <img src="./Images/fossoverflow_3d.png" id="intro-logo" alt="error to load image">
             <div id="welcome-message">
@@ -33,9 +35,11 @@
                 <div class="welcome-subtitle">Explore the developer within you</div>
             </div>
         </div>
-        <div id="upcoming-event-button" class="event-button">
-            <a href="./upcoming_events.php">Upcoming Events</a>
-        </div>
+        
+        <a href="./upcoming_events.php">
+            <div id="upcoming-event-button" class="event-button">Upcoming Events</div>
+        </a>
+        
     </section>
 
 

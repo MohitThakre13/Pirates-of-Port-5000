@@ -1,3 +1,7 @@
+
+a{
+    text-decoration: none;
+} 
 /* Navbar*/
 .navopt>.on-page-home {
     display: flex;
@@ -99,7 +103,7 @@
     align-items: center;
 
     border: 0.1px solid white;
-
+    color:white;
 
 }
 
