@@ -14,7 +14,8 @@
     <?php
     require_once('header.php');
     ?>
-    <p class="arrow"> &#x2B05; <b class="back">Back To Blog List</b></p>
+   <a href="blogs.php" style="color: white; text-decoration: none;">
+ <p class="arrow"> &#x2B05;</a> <b class="back">Back To Blog List</b></p>
     <br><br>
     <br><br>
 
