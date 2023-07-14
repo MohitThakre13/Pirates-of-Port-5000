@@ -26,6 +26,7 @@
     margin:auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: 'Blinker', sans-serif; 
 }
 
 #larger{
@@ -44,7 +45,7 @@
     font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",sans-serif;
     color:aliceblue;
     -webkit-font-smoothing: antialiased;
-    font-weight: bolder;
+    font-weight: 600;
     margin-left: 0;
 }
 
@@ -97,4 +98,30 @@
 
 a{
     text-decoration: none;
+}
+
+@media only screen and (max-width: 821px){
+    .all-projects {
+        gap:20px;
+        justify-content: center;
+    }
+    .titleproject{
+        font-size:46px;
+    }
+    .project-container {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .all-projects {
+        gap:20px;
+        justify-content: center;
+    }
+    .titleproject{
+        font-size:34px;
+    }
+    .project-container {
+        margin-left: 0px;
+        width: 10rem;
+    }
 }
