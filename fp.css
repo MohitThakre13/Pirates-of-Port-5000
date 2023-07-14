@@ -1,0 +1,82 @@
+.all-projects{
+    font-size: large;
+    display: flex;
+    color: aliceblue;
+    width: auto;
+    border:none;
+    padding: 50px;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#larger{
+    font-size: xx-large;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",sans-serif;
+    color:aliceblue;
+    -webkit-font-smoothing: antialiased;
+}
+
+.our_projects{
+    margin:auto;
+}
+
+#project-head{
+    font-size: x-large;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",sans-serif;
+    color:aliceblue;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+
+.project-container{
+    display:flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: 300;
+    flex-direction: column;
+    color: aliceblue;
+    width: 250px;
+    height: 300px;
+    border: 3px solid  #79a2fc ; 
+    padding: 30px;
+    border-radius: 30px;
+    /*background-color: #021336 ;*/
+    background-image: url(./Images/purple.jpg);
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.center{
+    text-align: center;
+  
+}
+
+.titleproject{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",sans-serif;
+    color:aliceblue;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.project-container:hover{
+    transform:translate(0px,-20px);
+    box-shadow: 10px 10px aqua;
+    font-size:larger;
+    #project-head{
+        color:aqua;
+        font-weight:900;
+        font-size: larger;
+    }
+}
+.all-projects:a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
