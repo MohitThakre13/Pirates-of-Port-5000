@@ -34,7 +34,7 @@
         <div class="right-nav">
             <ul>
                 <li><a href="./blogs.php" id="blog-btn">Blogs</a></li>
-                <li><a href="#subscribe" id="subscribe-btn">Subscribe</a></li>
+                <li><a href="./homepage.php#subscribe" id="subscribe-btn">Subscribe</a></li>
             </ul>
         </div>
     </nav>
@@ -58,7 +58,7 @@
                 <li><a href="#">Community</a> </li>
                 <li><a href="./advice.php">Advice</a></li>
                 <li><a href="./blogs.php">Blogs</a></li>
-                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="./homepage.php#subscribe">Subscribe</a></li>
             </ul>
         </nav>
     </nav>
