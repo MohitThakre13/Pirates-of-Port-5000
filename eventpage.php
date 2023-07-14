@@ -56,9 +56,11 @@
                     while(($row = mysqli_fetch_assoc($result))['s.no.'] != $_GET['sno']) {}
                         echo '
                         <br><br>
-                        <div class="eventhead">'.$row['event_name'].'</div>
+                        <span class="eventhead"><hr>'.$row['event_name'].'
+                        <hr></span>
                         <br>
-                        <div class="eventsubheading">'.$row['date_and_venue'].'</div>
+                        <span class="eventsubheading">'.$row['date_and_venue'].'
+                        </span>
                         <br><br>
                         <div class="contentcontainer">
                         '.$row['content'].'

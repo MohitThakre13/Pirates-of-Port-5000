@@ -95,7 +95,7 @@ a{
 
 .event-button {
     width: 75px;
-    background-color: #ffffff21;
+    background-color: /*url("./Images/purple.jpg")*/ #ffffff21;
     height: 327px;
 
     display: flex;
@@ -414,7 +414,7 @@ hr {
 }
 
 .read-more:hover{
-    font-size:25px;
+    font-size:20px;
     font-weight: 800;
     color: aquamarine;
 }
