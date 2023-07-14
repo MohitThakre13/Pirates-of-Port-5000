@@ -12,6 +12,7 @@
 <?php
       require_once('header.php');
     ?>
+    <div class="content">
     <br><br><br>
     <div class="form-block">
     <form action = "submit_events.php" method = "post">
@@ -77,6 +78,8 @@
     }
     ?>
     </div>
+</div>
+<div class="space"><div>
       <?php
         require_once('footer.php');
         ?>
