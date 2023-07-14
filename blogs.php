@@ -7,6 +7,7 @@
     
 
     <link rel="stylesheet" href="./blogs_style.css">
+    <link rel="stylesheet" href="./homepage.css">
 
 </head>
 
