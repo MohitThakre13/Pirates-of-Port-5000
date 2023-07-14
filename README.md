@@ -80,4 +80,12 @@ Member 5:
 Past events
 <img width="943" alt="image" src="https://github.com/MohitThakre13/Pirates-of-Port-5000/assets/132203879/fbe4078d-6edf-446f-a37a-17178eff20ea">
 
+Community
+<img width="699" alt="image" src="https://github.com/MohitThakre13/Pirates-of-Port-5000/assets/132203879/10507166-81ca-4a53-b072-9e28b966c951">
+
+Blogs
+<img width="938" alt="image" src="https://github.com/MohitThakre13/Pirates-of-Port-5000/assets/132203879/2e1595f8-0666-43fd-9af2-e4cd9fd5da29">
+
+
+
 
