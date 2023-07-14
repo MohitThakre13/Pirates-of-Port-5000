@@ -5,12 +5,20 @@
   -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: column;
+  min-height: 90vh;
+  
+}
+.back-btn{
+  padding-left:20px;
+}
+.back a{
+  text-decoration: none;
 }
 .blogtitle{
   color:aliceblue;
   background-image: url(./Images/purple.jpg);
   height: auto;
-  padding-left: 15%;
+  padding-left: 12%;
 }
 .heading{
   font-size: 60px;
@@ -21,7 +29,6 @@
   font-size: 30px;
   font-weight: 600;
   margin-left: 0;
-
 }
 .img{
   height:60px;
@@ -29,11 +36,51 @@
 .contentcontainer{
   font-size: 20px;
   font-weight: 300;
-  padding-left:10%;
-  padding-right:10%;
+  padding-left:12%;
+  padding-right:12%;
 
 }
 
+
+@media only screen and (max-width:821px){
+  .heading{
+    font-size: 46px;
+    font-weight: 900;
+    margin-left: 0;
+  }
+  .subheading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .contentcontainer{
+    font-size: 14px;
+    font-family: 'Blinker', sans-serif; 
+  }
+}
+@media only screen and (max-width:500px){
+  .heading{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 0;
+  }
+  .subheading{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .contentcontainer{
+    font-size: 13px;
+    font-family: 'Blinker', sans-serif; 
+  }
+  .back-btn{
+    padding-left:20px;
+    font-size:12px;
+  }
+  .back a{
+    text-decoration: none;
+  }
+}
 
 
 
