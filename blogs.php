@@ -6,7 +6,7 @@
     <title>Blogs</title>
     
 
-    <link rel="stylesheet" href="blogs_style.css">
+    <link rel="stylesheet" href="./blogs_style.css">
 
 </head>
 
