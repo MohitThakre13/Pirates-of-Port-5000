@@ -52,7 +52,7 @@
                         <div><a href="#" class="blog-heading" style="text-decoration:none;">'.$row['blog_topic'].'</a></div>
                         <div class="subheading1">'.$row['topic_of_interest'].'</div>
                         <p class="content2">'.substr($row['content'],0,141)."...".'</p>
-                        <a href="http://localhost/WebWave/blog1.php?sno='.$i.'" class="read-more">Click to <b>Read</b></a>
+                        <a href="http://localhost/'.basename(__DIR__).'/blog1.php?sno='.$i.'" class="read-more">Click to <b>Read</b></a>
                     </div>
                     <hr>
                         ';
