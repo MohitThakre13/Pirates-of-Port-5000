@@ -18,7 +18,7 @@
         <p><label for="blog_topic">Blog Topic :</label>
         <input type="text" name="blog_topic" id="blog_topic" size = "44" /></p>
 
-        <p><label for="topic_of_interest">Topic of Interest :</label>
+        <p><label for="topic_of_interest">Author name, a short text :</label>
         <input type="text" name="topic_of_interest" id="topic_of_interest" size="44" /></p>
 
         <p><label for="content">Content :</label>
