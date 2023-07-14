@@ -15,7 +15,11 @@
     require_once('header.php');
     ?>
 <div class="comppage">
- <b class="back"><a style = "color:white" href = "./blogs.php"><p class="arrow"> &#x2B05;  Back To Blog List </a></b></p>
+    <b class="back">
+    <a style = "color:white" href = "./blogs.php">
+        <p class="back-btn"> &#x2B05;  Back To Blog List </p>
+    </a>
+    </b>
 <br><br>
 <br><br>
 <?php

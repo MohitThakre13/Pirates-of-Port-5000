@@ -29,7 +29,7 @@ a{
     margin-right: auto;
     display: block;
     left: 45%;
-    top: 500px;
+    top: 529px;
 }
 /* Main Intro Section */
 .main-intro-container {
@@ -274,7 +274,9 @@ hr {
 /* for phone screen  */
 @media only screen and (max-width: 760px) {
     /* Home Page */
-
+    #arrow{
+        display: none;
+    }
     #logo-welcome-container {
         display: flex;
         justify-content: center;
@@ -397,6 +399,9 @@ hr {
 }
 
 @media only screen and (max-width: 350px){
+    #arrow{
+        display: none;
+    }
     #intro-logo {
         width: 70px;
     }
