@@ -14,15 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="./homepage.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     
 </head>
 <body>
 
-
     <?php
       require_once('header.php');
     ?>
+    
+
     <?php
         if (isset($_POST['submit'])) {
             if (strlen($_POST['box']) != 0) {
@@ -44,7 +45,13 @@
                     if ($result) {
     
                         // add it as a flag
-                        echo "You are successfully subscribed to the newsletter";
+                        echo '
+                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  You are successfully subscribed to the newsletter !
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+                        ';
                     }
                     else {
                         echo "There is a technical issue<br>";
