@@ -22,13 +22,20 @@
     <!-- writing the data to the database, if form is submitted -->
 
     <?php
+    if (isset($_POST['submit'])) {
         if (strlen($_POST['blog_topic']) != 0 && strlen($_POST['content']) != 0) {
 
         //reading the form entries
 
         $blog_topic = $_POST['blog_topic'];
+        // replacing the ' with \'
+        $blog_topic = str_replace("'","\'",$blog_topic);
         $topic_of_interest = $_POST['topic_of_interest'];
+        // replacing the ' with \'
+        $topic_of_interest = str_replace("'","\'",$topic_of_interest);
         $content = $_POST['content'];
+        // replacing the ' with \'
+        $content = str_replace("'","\'",$content);
         $date = date("F j, Y");
 
         //making connection with the database
@@ -54,6 +61,7 @@
         else {
             die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
         }}
+    }
     ?>
 
 </body>

@@ -38,17 +38,21 @@
             $sql = "SELECT * FROM `blogs`";
             $result = mysqli_query($conn, $sql);
 
+            //Initializing the count
+            $i = 0;
             //counting total blogs
             $num = mysqli_num_rows($result);
             if ($result) {
                 if ($num > 0) {
                     while($row = mysqli_fetch_assoc($result)) {
+                        $i++;
                         echo '
                         <div class="blogs-container">
                         <div class="date">'.$row['date'].'</div>
                         <div><a href="#" class="blog-heading" style="text-decoration:none;">'.$row['blog_topic'].'</a></div>
                         <div class="subheading1">'.$row['topic_of_interest'].'</div>
-                        <p class="content2">'.$row['content'].'</p>
+                        <p class="content2">'.substr($row['content'],0,141)."...".'</p>
+                        <a href="http://localhost/WebWave/blog1.php?sno='.$i.'" class="read-more">Click to <b>Read</b></a>
                     </div>
                     <hr>
                         ';
