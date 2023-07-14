@@ -14,7 +14,7 @@
     <?php
     require_once('header.php');
     ?>
-
+<div class="comppage">
  <b class="back"><a style = "color:white" href = "./blogs.php"><p class="arrow"> &#x2B05;  Back To Blog List </a></b></p>
 <br><br>
 <br><br>
@@ -40,24 +40,20 @@
             if ($result) {
                     while(($row = mysqli_fetch_assoc($result))['s.no.'] != $_GET['sno']) {}
                         echo '
-                        <div class="round-edge">
-                        <div class="topic-bg"><br>
-                            <div class="blog-topic"><div class="shift-right"><b>'.$row['blog_topic'].'</b> </div></div>
-                            <p class="author-date"><br>
-                                -  <img src="images/m1.jpg" alt="A beautiful image"
-                                class="image-frame">&nbsp;&nbsp;'.$row['topic_of_interest'].' 
-                            <br><br>
-                        
+                        <div class="blogtitle">
+                         <br>
+                         <div class="heading">
+                            <b>'.$row['blog_topic'].'</b> 
+                        </div
+                           <br>
+                                <div class="subheading">'.$row['topic_of_interest'].' </div>
+                            
+                            <br><br> 
                     </div>
-                    </p>
                     
                     <br>
-                    <div class="blog-content">
-                        <p class="content"><br> '.$row['content'].'
-                
-                            <br>
-                    </div>
-                </div>
+                        <div class="contentcontainer"><br> '.$row['content'].'</div>
+
                     <br><br>
                         ';
             }
@@ -65,10 +61,10 @@
         else {
             die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
         }
+        echo'</div>';
     ?>
-
     
-
+    <br><br>
     <?php
     require_once('footer.php');
     ?>
