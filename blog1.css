@@ -11,6 +11,7 @@ background-size:cover;
 color: white;
 font-size: 25px;
 margin-left: 20px;
+text-decoration:none;
 }
 
 .back{
@@ -24,33 +25,39 @@ color: white;
 font-size: 30px;
 margin-left: 40px;
 font-family: Georgia, 'Times New Roman', Times, serif;
-margin-top: 10px;
+margin-top: 70px;
+line-height:0.1;
 }
 
 .topic-bg{
-background-image:url(images/blog-bg.png);
-height:190px;
+background-image:url(images/coding2.0.png);
+height:250px;
 width:1000px;
 margin:auto;
 position: relative;
 border-radius: 10px;
+border: 1.5px solid white;
+justify-content: center;
 
 }
 
 .author-date{
-margin-top: 40px;
+margin-top: 50px;
 color: white;
 margin-left:40px;
 font-size: 20px;
 border: 2px;
+display:inline-block;
 }
 
 .blog-content{
 margin:auto;
-background-image: url(images/box.jpg);
+background-image: url(images/bg.jpg);
 width:1000px;
 height:100%;
 border-radius: 10px;
+border: 1.5px solid aqua;
+
 
 }
 
@@ -58,22 +65,34 @@ border-radius: 10px;
 margin-left:20px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size:18px;
-color:black;
+color:white;
 margin-bottom: 20px;
 line-height: 1.5rem;
+margin-right: 20px;
 }
 
 .round-edge{
-border-radius: 10%;
+border-radius: 20%;
 
 }
 
 .image-frame {
-    width: 70px; /* Adjust the width and height to your desired size */
-    height: 70px;
+    width: 50px; /* Adjust the width and height to your desired size */
+    height: 50px;
     border-radius: 50%; /* Make the frame round by setting the border-radius to 50% */
-    overflow: hidden; /* Hide any overflow of the image */
-    
+    overflow:hidden; /* Hide any overflow of the image */
+    border: 1.5px solid white;
+    display:inline-block;
   }
 
+  .align{
+    display: inline-block;
+  }
 
+  .shift-right{
+
+    text-align:center;
+    margin-top:40px;
+  }
+
+  
