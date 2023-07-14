@@ -6,11 +6,16 @@
     <title>Writing a blog</title>
 </head>
 <body>
+<?php
+      require_once('header.php');
+    ?>
+    <br><br><br>
+    <div class="form-block">
     <form action = "submit_blog.php" method = "post">
-        <p><label for="blog_topic">Blog_topic :</label>
+        <p><label for="blog_topic">Blog Topic :</label>
         <input type="text" name="blog_topic" id="blog_topic" size = "44" /></p>
 
-        <p><label for="topic_of_interest">Topic_of_interest :</label>
+        <p><label for="topic_of_interest">Topic of Interest :</label>
         <input type="text" name="topic_of_interest" id="topic_of_interest" size="44" /></p>
 
         <p><label for="content">Content :</label>
@@ -20,7 +25,7 @@
     </form>
 
     <!-- writing the data to the database, if form is submitted -->
-
+    
     <?php
     if (isset($_POST['submit'])) {
         if (strlen($_POST['blog_topic']) != 0 && strlen($_POST['content']) != 0) {
