@@ -14,57 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="./homepage.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
+
 </head>
 <body>
 
     <?php
       require_once('header.php');
-    ?>
-    
-
-    <?php
-        if (isset($_POST['submit'])) {
-            if (strlen($_POST['box']) != 0) {
-                $email = $_POST['box'];
-    
-                //making connection with the database
-    
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "emails";
-    
-                $conn = mysqli_connect($servername, $username, $password, $database);
-    
-                if ($conn) {
-                    // writing entries to the blogs database
-                    $sql = "INSERT INTO `emails` (`email`) VALUES ('$email')";
-                    $result = mysqli_query($conn, $sql);
-                    if ($result) {
-    
-                        // add it as a flag
-                        echo '
-                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  You are successfully subscribed to the newsletter !
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-                        ';
-                    }
-                    else {
-                        echo "There is a technical issue<br>";
-                    }
-                }
-                else {
-                    die("There is a technical issue : ".mysqli_connect_error());
-                }
-            }
-        
-
-        }
-?>
+    ?>   
 
     <img src="./Images/arrow.png" alt="" id="arrow">
     <section class="main-intro-container">
@@ -103,26 +59,26 @@
     <?php
         
         //making connection with the database
-
+        
         $servername = "localhost";
         $username = "root";
         $password = "";
         $database = "blogs";
-
+        
         $conn = mysqli_connect($servername, $username, $password, $database);
-
+        
         if ($conn) {
             // reading entries from blogs database
             $sql = "SELECT * FROM `blogs` ORDER BY `s.no.` DESC";
             $result = mysqli_query($conn, $sql);
-
-
+            
+            
             //counting total blogs
             $num = mysqli_num_rows($result);
-
+            
             //Initializing the count
             $i = 0;
-
+            
             if ($result) {
                 if ($num > 0) {
                     while($row = mysqli_fetch_assoc($result)) {
@@ -137,7 +93,7 @@
                         <div class="subheading1">'.$row['topic_of_interest'].'</div>
                         <p class="content2">'.substr($row['content'],0,141)."...".'</p>
                         <a href="./blog1.php?sno='.$row['s.no.'].'" class="read-more">Click to <b>Read</b></a>
-                    </div>
+                        </div>
                     <hr>
                         ';
                     }
@@ -147,18 +103,55 @@
         else {
             die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
         }
-    ?>
+        ?>
     </section>
 
 
-    <form action = "homepage.php" method = "post">
+    <form action = "homepage.php#subscribe" method = "post">
     <section id="subscribe">
         <h2 class="heading2">Subscribe our Newsletter</h2>
-    
+        
         <div class="box">
             <input type="email" name="box" id="input-box" placeholder="Email address">
             <button name="submit" class="subscribe-btn">Subscribe</button>
         </div>
+        <?php
+             if (isset($_POST['submit'])) {
+                 if (strlen($_POST['box']) != 0) {
+                     $email = $_POST['box'];
+         
+                     //making connection with the database
+         
+                     $servername = "localhost";
+                     $username = "root";
+                     $password = "";
+                     $database = "emails";
+         
+                     $conn = mysqli_connect($servername, $username, $password, $database);
+         
+                     if ($conn) {
+                         // writing entries to the blogs database
+                         $sql = "INSERT INTO `emails` (`email`) VALUES ('$email')";
+                         $result = mysqli_query($conn, $sql);
+                         if ($result) {
+         
+                             // add it as a flag
+                             echo '
+       <p class="box">You are successfully subscribed to the newsletter !</p>
+                             ';
+                         }
+                         else {
+                             echo "There is a technical issue<br>";
+                         }
+                     }
+                     else {
+                         die("There is a technical issue : ".mysqli_connect_error());
+                     }
+                 }
+             
+     
+             }
+     ?>
     </section>
     </form>
 
