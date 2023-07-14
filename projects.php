@@ -39,9 +39,11 @@ if ($httpCode === 200)
 
         foreach ($repositories as $repository) 
         {
-            echo '<div class="repo-name">' . $repository['name'] . '</div>';
+            echo '<div class="repo-name">';
+            echo '<a href="indiv_proj.php?repo=' . $repository['name'] . '">' . $repository['name'] . '</a>';
+            echo '</div>';
             echo '<br>';
-            echo '<div class="repo-url">' . $repository['html_url'] . '</div>';
+            echo '<div class="repo-desc">' . $repository['description'] . '</div>';
             echo '<br><br><br>';
             
         }
