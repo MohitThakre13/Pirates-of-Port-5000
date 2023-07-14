@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Projects</title>
+    <title>Past Events</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="events.css">
     <link rel="stylesheet" href="footer_styling.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -29,11 +28,9 @@
     require_once('header.php');
     ?>
 
-    <br><br><br>
-    <h1 id="larger" class="center">PAST EVENTS</h1>
-
-    <section class="our_projects">
-        <div class="all-projects">
+<br><br><br>
+    <div class="comppage">
+    <h1 class="blogtitle" id="heading">PAST EVENTS</h1>
 
         <?php
         
@@ -61,11 +58,14 @@
                         $i++;
                         if ($row['type'] == "p"){
                         echo '
-                            <a href="./eventpage.php?sno='.$i.'"><span class="project-container">
-                            <img id="image" src="./Images/atarangi.jpg" >
-                            <h3 id="project-head">'.$row['event_name'].'</h3>
-                            <p class="para">'.$row['date_and_venue']."<br><br>".substr($row['content'],0,141)."...".'</p>
-                             </span></a>
+                            <a href="./eventpage.php?sno='.$i.'">
+                            <div class="anevent">
+                            
+                            <div class="subheading">'.$row['event_name'].'</div>
+                            <div class="date">'.$row['date_and_venue'].'</div>
+                            <br><div class="read">'.substr($row['content'],0,141)."...".'</div>
+                             </div
+                             ></a>
                         ';
                         }
                     }
@@ -75,25 +75,11 @@
         else {
             die("connection with blogs database was unsuccessful : ".mysqli_connect_error());
         }
-    ?>
-            
-                           </div>    
+        echo'</div>';
+    ?> 
     </section>
 
-   
-
-    <section id="subscribe">
-        <h2 class="heading2">Subscribe our Newsletter</h2>
-    
-        <div class="box">
-            <input type="text" name="box" id="input-box" placeholder="Email address">
-            <button class="subscribe-btn">Subscribe</button>
-        </div>
-    </section>
-
-
-
-
+    <br><br>
 
     <?php
         require_once('footer.php');
