@@ -60,6 +60,7 @@
     background-color: beige;
     color:black;
     margin-top: 15px;
+    padding-bottom:10px;
     
   }
 
@@ -85,8 +86,26 @@
     #heading{
       padding: 10px;
       padding-left: 44px;
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
+    .subheading{
+      font-size: 18px;
+      font-weight: 900;
+      margin-left: 0;
+    
+    }
+    .date {
+      font-size: 14px;
+      font-weight: 700;
+  }
+  .read {
+    font-size: 10px;
+    font-weight: 500;
+}
+.anevent {
+  border-radius: 22px;
+  padding-bottom:10px;
+}
   }
   
   
