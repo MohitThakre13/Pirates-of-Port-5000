@@ -412,3 +412,9 @@ hr {
         font-size: 12px;
     }
 }
+
+.read-more:hover{
+    font-size:25px;
+    font-weight: 800;
+    color: aquamarine;
+}

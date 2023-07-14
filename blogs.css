@@ -247,6 +247,11 @@ a{
     font-weight: 100;
     font-family: 'Blinker', sans-serif; 
 }
+.read-more:hover{
+    font-size:25px;
+    font-weight: 800;
+    color: aquamarine;
+}
 
 
 hr {
