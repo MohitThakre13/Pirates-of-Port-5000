@@ -15,7 +15,7 @@
     require_once('header.php');
     ?>
 
-<p class="arrow"> &#x2B05; <b class="back"><a style = "color:white" href = "./blogs.php">Back To Blog List</a></b></p>
+ <b class="back"><a style = "color:white" href = "./blogs.php"><p class="arrow"> &#x2B05;  Back To Blog List </a></b></p>
 <br><br>
 <br><br>
 <?php
@@ -41,11 +41,11 @@
                     while(($row = mysqli_fetch_assoc($result))['s.no.'] != $_GET['sno']) {}
                         echo '
                         <div class="round-edge">
-                        <div class="topic-bg">
-                            <div class="blog-topic"><br>'.$row['blog_topic'].' </div>
-                            <p class="author-date">
-                                -'.$row['topic_of_interest'].' &nbsp;&nbsp;<img src="images/m1.jpg" alt="A beautiful image"
-                                    class="image-frame"></p>
+                        <div class="topic-bg"><br>
+                            <div class="blog-topic"><div class="shift-right"><b>'.$row['blog_topic'].'</b> </div></div>
+                            <p class="author-date"><br>
+                                -  <img src="images/m1.jpg" alt="A beautiful image"
+                                class="image-frame">&nbsp;&nbsp;'.$row['topic_of_interest'].' 
                             <br><br>
                         
                     </div>
@@ -53,9 +53,9 @@
                     
                     <br>
                     <div class="blog-content">
-                        <p class="content"><br><br> '.$row['content'].'
+                        <p class="content"><br> '.$row['content'].'
                 
-                            <br><br>
+                            <br>
                     </div>
                 </div>
                     <br><br>
