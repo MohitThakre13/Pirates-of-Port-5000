@@ -1,0 +1,76 @@
+/* CSS for indiv_proj.php */
+
+/* Repository details */
+
+/* CSS for indiv_proj.php */
+
+/* Ensure full page height */
+html, body {
+    height: 100%;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    min-height: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Content */
+  .wrapper {
+    flex-grow: 1;
+  }
+  
+  /* Footer */
+  footer {
+    flex-shrink: 0;
+  }
+  
+
+
+.repo-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .repo-description {
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  .repo-url {
+    margin-top: 10px;
+    color: #0366d6;
+  }
+  
+  /* Contributors */
+  .contributors-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contributors-list {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .contributor {
+    margin-bottom: 10px;
+  }
+  
+  .contributor-name {
+    font-weight: bold;
+  }
+  
+  .contributor-url {
+    color: #0366d6;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

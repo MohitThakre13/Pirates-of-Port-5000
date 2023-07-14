@@ -3,8 +3,9 @@
     color: rgb(240, 240, 244);
 }
 
-.repo-url {
-    color: rgb(197, 165, 202);
+.repo-desc{
+    font-weight: bold;
+    color: rgb(240, 240, 244);
 }
 
 .repository-list {
