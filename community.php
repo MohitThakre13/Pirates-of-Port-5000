@@ -61,6 +61,7 @@
                 
                             <div class="advice-container">
                                 <p class="author">'.$row['name'].'</p>
+                                <p class="author">'.$row['position'].'</p>
                                 <div class="icons-container">
                                     <a href="'.$row['insta'].'" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
                                     <a href="'.$row['linkedin'].'" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
@@ -89,6 +90,7 @@
                 
                             <div class="advice-container">
                                 <p class="author">'.$row['name'].'</p>
+                                <p class="author">'.$row['position'].'</p>
                                 <div class="icons-container">
                                     <a href="'.$row['insta'].'" class="footer__link icon footer__link--instagram"><i class="fab fa-instagram"></i></a>
                                     <a href="'.$row['linkedin'].'" class="footer__link icon footer__link--linkedin"><i class="fab fa-linkedin"></i></a>
