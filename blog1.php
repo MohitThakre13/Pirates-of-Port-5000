@@ -14,6 +14,13 @@
     <?php
     require_once('header.php');
     ?>
+<<<<<<< HEAD
+=======
+   <a href="blogs.php" style="color: white; text-decoration: none;">
+ <p class="arrow"> &#x2B05;</a> <b class="back">Back To Blog List</b></p>
+    <br><br>
+    <br><br>
+>>>>>>> 1d535d1 (arrow)
 
 <p class="arrow"> &#x2B05; <b class="back"><a style = "color:white" href = "./blogs.php">Back To Blog List</a></b></p>
 <br><br>
