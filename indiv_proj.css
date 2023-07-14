@@ -33,8 +33,8 @@
 /* Content */
 .wrapper {
   flex-grow: 1;
+  padding: 65px;
 }
-
 /* Footer */
 footer {
   flex-shrink: 0;
@@ -70,6 +70,7 @@ footer {
   font-size:xx-large;
   font-weight: 800;
   color:aliceblue;
+  margin-left:20px;
 }
 
 .contributors-list {
@@ -105,4 +106,43 @@ a{
 
 a:hover{
   font-weight: 900;
+}
+
+@media screen and (max-width: 630px) {
+  .wrapper {
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.repo-name {
+  font-size: 34px;
+  font-weight: 900;
+  color: aliceblue;
+  background-image: url(./Images/purple.jpg);
+  height: auto;
+  /* padding-top: 70px; */
+  padding: 1rem 0px;
+  text-align: center;
+  margin: 11px 40px;
+}
+.repo-description {
+  font-size: 1rem;
+  width:16rem;
+}
+ a {
+  font-size: 0.9rem;
+}
+.compcontainer {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:21rem;
+}
+.contributors-title{
+  font-size:2rem;
+}
+.contributor{
+  font-size:1rem;
+}
 }
