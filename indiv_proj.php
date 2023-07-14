@@ -12,7 +12,9 @@
     require_once('header.php');
     ?>
 
+
 <div class="wrapper">
+<div class="compcontainer">
 
 <?php
 if (isset($_GET['repo'])) {
@@ -51,9 +53,10 @@ if (isset($_GET['repo'])) {
 
         // Display repository details
         echo '<h1 class="repo-name">' . $repoDetails['name'] . '</h1>';
+        echo '<br>';
         echo '<p class="repo-description">' . $repoDetails['description'] . '</p>';
-        echo '<p class="repo-url">URL: <a href="' . $repoDetails['html_url'] . '">' . $repoDetails['html_url'] . '</a></p>';
-
+        echo '<p class="repo-description">URL: <a href="' . $repoDetails['html_url'] . '">' . $repoDetails['html_url'] . '</a></p>';
+        echo '<br>';
         // Display contributors
         echo '<h2 class="contributors-title">Contributors:</h2>';
         if (!empty($contributors)) {
@@ -75,9 +78,9 @@ if (isset($_GET['repo'])) {
     echo '<p class="error-message">No repository specified.</p>';
 }
 ?>
-
-
 </div>
+</div>
+<br><br><br>
 
     <?php
     require_once('footer.php');

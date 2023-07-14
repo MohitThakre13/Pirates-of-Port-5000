@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repo List</title>
-
-    <link rel="stylesheet" href="projects.css">
-    
-
+    <link rel="stylesheet" href="fp.css">
 </head>
 <body>
 
@@ -16,6 +13,7 @@
     ?>
 
 <?php
+echo '<section class="our_projects">';
 $url = "https://api.github.com/orgs/OpenLake/repos";
 $apiKey = "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";
 
@@ -37,21 +35,26 @@ if ($httpCode === 200)
     
     if ($repositories)
     {
-        echo '<div class="repository-list">';
-        echo '<div class="list-title">Repositories:</div>';
+        echo '<br><br><br>';
+        echo '<div class="titleproject">Our Projects</div>';
+        echo '<br><br><br>';
+        echo '<div class="all-projects">';
+
 
         foreach ($repositories as $repository) 
-        {
-            echo '<div class="repo-name">';
-            echo '<a href="indiv_proj.php?repo=' . $repository['name'] . '">' . $repository['name'] . '</a>';
+        {   echo '<a href="indiv_proj.php?repo=' . $repository['name'] . '">';
+            echo '<div class="project-container">';
+            echo '<br><br><br>';
+            echo '<div id="project-head">';
+            echo $repository['name'];
             echo '</div>';
             echo '<br>';
             echo '<div class="repo-desc">' . $repository['description'] . '</div>';
+            echo '</div>';
+            echo '</a>';
             echo '<br><br><br>';
             
         }
-
-        echo '</div>';
     } 
     
     else 
@@ -67,6 +70,8 @@ else
 
 curl_close($ch);
 ?>
+</div>
+</div>
 
 
     <?php
