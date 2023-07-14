@@ -54,8 +54,8 @@
         <nav class="nav">
             <ul class="menu">
                 <li><a href="./homepage.php">Home</a></li>
-                <li><a href="#">Our Projects</a> </li>
-                <li><a href="#">Community</a> </li>
+                <li><a href="./finalprojects.php">Our Projects</a> </li>
+                <li><a href="./community.php">Community</a> </li>
                 <li><a href="./advice.php">Advice</a></li>
                 <li><a href="./blogs.php">Blogs</a></li>
                 <li><a href="./homepage.php#subscribe">Subscribe</a></li>
