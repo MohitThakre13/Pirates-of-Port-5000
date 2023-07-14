@@ -21,7 +21,7 @@
     <?php
       require_once('header.php');
     ?>
-
+    <img src="./Images/arrow.png" alt="" id="arrow">
     <section class="main-intro-container">
         <div id="past-event-button" class="event-button">
             Past Events

@@ -16,7 +16,17 @@
     font-weight: 600;
 }
 /* Navbar End */
-
+/* Arrow*/
+#arrow {
+    width: 100px;
+    position: absolute;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 45%;
+    top: 500px;
+}
 /* Main Intro Section */
 .main-intro-container {
     color: aliceblue;
@@ -48,7 +58,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 57%;
+    width: 62%;
 }
 
 #intro-logo {
