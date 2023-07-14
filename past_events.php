@@ -30,7 +30,7 @@
     ?>
 
     <br><br><br>
-    <h1 id="larger" class="center">UPCOMING EVENTS</h1>
+    <h1 id="larger" class="center">PAST EVENTS</h1>
 
     <section class="our_projects">
         <div class="all-projects">
