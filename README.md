@@ -48,31 +48,26 @@ THIS STEP IS VERY IMPORTANT, YOU MIGHT NOT BE ABLE TO SEE BLOGS, EVENTS WITHOUT 
 Member 1 (POC):
 	Name: Vedansh Sharma
 	Batch: 2026
-	Whatsapp Number: 9799994323
 	Github Username: vedanshbvb
 
 Member 2:
 	Name: Shweta Kesharwani
 	Batch: 2026
-	Whatsapp Number: 6232562932
 	Github Username: shweta6113
 
 Member 3:
 	Name: Mohit Thakre
 	Batch: 2026
-	Whatsapp Number: 8767249195
 	Github Username: MohitThakre13
 
 Member 4:
 	Name: Piyush Chandrakar
 	Batch: 2026
-	Whatsapp Number: 9179932361
 	Github Username: piyush-c38
 
 Member 5:
 	Name: Smit Maurya
 	Batch: 2026
-	Whatsapp Number: 7985370417
 	Github Username: SmitMaurya23
 
 # Images
